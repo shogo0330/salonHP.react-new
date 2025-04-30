@@ -1,0 +1,98 @@
+.Menu-page {
+  margin: 50px 80px;
+}
+
+.top-img {
+  background-image: url(/images/top.jpg);
+  background-size: cover;
+  width: 100vw;
+  margin-left: calc(-1 * (80px));
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.Menu-top h5 {
+  color: white;
+  padding: 20px 80px;
+  font-size: 18px;
+}
+
+.Menu-top p {
+  color: #666666;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.menu-top-message {
+  background-image: url(/images/school7.png);
+  background-size: cover;
+  width: 100vw;
+  margin-left: calc(-1 * (80px));
+  height: 300px;
+  padding: 20px 80px;
+  color: #808080;
+  font-size: 18px;
+}
+
+.menu-top-message h5 {
+  margin-bottom: 0;
+}
+
+.menu-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.menu-section {
+  width: calc((100% - 80px) / 3);
+}
+
+.menu-section h5 {
+  color: #e6b422;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-description {
+  font-size: 10px;
+}
+
+.menu-item {
+  border-bottom: solid 0.5px #777777;
+  margin-bottom: 20px;
+}
+
+.item-price {
+  margin-bottom: 30px;
+}
+
+.foot-care-message {
+  background-image: url(/images/course5.jpg);
+  background-size: cover;
+  width: 100vw;
+  margin-left: calc(-1 * (80px));
+  height: 300px;
+  padding: 20px 80px;
+  color: #808080;
+  font-size: 18px;
+}
+
+.foot-care-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.foot-care-section {
+  width: calc((100% - 80px) / 3);
+}
+
+.foot-care-section h5 {
+  color: #e6b422;
+}

@@ -1,0 +1,22 @@
+#scrollBtn {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #d3cbc6;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+  display: none;
+}
+
+#scrollBtn:hover {
+  background-color: #e6b422;
+}
+
+#scrollBtn.show {
+  display: block;
+}

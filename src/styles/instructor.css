@@ -1,0 +1,19 @@
+.instructor-page {
+  margin: 80px 80px;
+}
+
+.instructor-page h5,
+h7 {
+  color: #e6b422;
+}
+
+.instructor-page img {
+  width: 40%;
+  height: auto;
+}
+
+.instructor-top {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}

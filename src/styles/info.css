@@ -1,0 +1,75 @@
+.info-top {
+  font-size: 30px;
+  font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho",
+    "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E",
+    "MS Ｐ明朝", "MS PMincho", serif;
+  text-align: center;
+}
+
+.info-top h3 {
+  color: #e6b422;
+  margin-bottom: 0;
+}
+
+.info-top p {
+  font-size: 17px;
+  margin-top: 0;
+}
+
+.info-link {
+  display: block;
+  /*width: 380px;
+      height: 150px;*/
+  background-color: #eeeeee;
+  margin-top: 60px;
+  margin-left: 0;
+  overflow: hidden;
+  /*position: relative;*/
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.info-about {
+  display: flex;
+  width: 80%;
+}
+
+.info-text {
+  /*position: absolute;
+      top: 20px;
+      left: 160px;*/
+  width: 70%;
+  margin-left: 10px;
+}
+
+.info-link img {
+  /*width: 150px;
+      height: 140px;*/
+  transition: transform 0.3s ease-in-out;
+  width: 30%;
+  object-fit: cover;
+}
+
+.info-link img:hover {
+  transform: scale(1.1);
+}
+
+.info-btn {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.info-btn a {
+  background-color: #d3cbc6;
+  display: inline;
+  padding: 20px 75px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 1px #dcdcdc;
+}
+
+.info-btn a:hover {
+  background-color: #e6b422;
+}

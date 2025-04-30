@@ -1,0 +1,115 @@
+.reserve-page {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1500px;
+    padding: 80px;
+    color: #666666;
+}
+
+.reserve-page h6 {
+    font-size: 13px;
+}
+
+.reserve-page form {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.reserve-top {
+    text-align: center;
+    width: 100%;
+}
+
+.line-btn {
+    background-color: #27ae60;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.line-btn:hover {
+    background-color: #39c574;
+}
+
+.inquiry-reserve {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.school-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-input {
+    margin: 20px 0;
+}
+
+.date-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.date-selection p {
+    margin: 2px 0;
+}
+
+.date-selection-date {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.date-selection-time {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.input-selections {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.input-selections label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-selections input {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.input-selections textarea {
+    border: 1px solid #ccc;
+    height: 300px;
+    padding: 8px;
+}
+
+.concent {
+    font-size: 14px;
+}
+
+.send-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 90px;
+    background-color: #333333;
+    color: #fff;
+}
+
+.send-btn:hover {
+    background-color: #666666;
+    cursor: pointer;
+}

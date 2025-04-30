@@ -1,0 +1,28 @@
+.access {
+  max-width: 1000px;
+  margin: 100px auto 0;
+  padding: 0 30px;
+}
+
+.access h5 {
+  color: #e6b422;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.access p {
+  font-size: 15px;
+}
+
+.access-logo {
+  font-weight: 600;
+}
+
+.parking-guide a {
+  color: #e6b422;
+}
+
+.google-map {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}

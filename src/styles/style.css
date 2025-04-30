@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Top*/
+.top-message img {
+  background-size: cover;
+  max-width: 100%;
+  height: 950px;
+}
+
+.top-message {
+  text-align: center;
+  position: relative;
+}
+
+.message h2 {
+  font-size: 25px;
+  color: #e6b422;
+  font-weight: normal;
+  font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho",
+    "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E",
+    "MS Ｐ明朝", "MS PMincho", serif;
+  line-height: 20px;
+}
+
+.message {
+  position: absolute;
+  top: 870px;
+  left: 125px;
+  background-color: white;
+  width: 80%;
+  padding-top: 70px;
+}
+
+.message p {
+  font-size: 14px;
+}
+
+/*School.js*/
+.school-top {
+  margin-top: 200px;
+  display: flex;
+  gap: 5px;
+}
+
+.school-image {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.school-image img {
+  max-width: 100%;
+}
+
+.school-about {
+  width: 50%;
+}
+
+.school-list {
+  margin-bottom: 26px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.school-list h4 {
+  color: #e6b422;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.school-intro {
+  color: #666666;
+  font-weight: normal;
+}
+
+.school-btn a {
+  background-color: #f1c40f;
+  display: inline;
+  padding: 15px 40px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 1px #dcdcdc;
+}
+
+.school-btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.school-btn a:hover {
+  background-color: #ffcc33;
+  box-shadow: 0 -2px #bbbbbb;
+}
+
+/*Reason.js*/
+.reason {
+  padding-top: 50px;
+}
+
+.reason h2 {
+  font-size: 25px;
+  color: #e6b422;
+  font-weight: normal;
+  font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho",
+    "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E",
+    "MS Ｐ明朝", "MS PMincho", serif;
+  line-height: 20px;
+  text-align: center;
+}
+
+.reason-top {
+  margin-top: 80px;
+  display: flex;
+  gap: 3vw;
+}
+
+.reason-image {
+  padding-left: 7vw;
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.reason-image img {
+  max-width: 100%;
+}
+
+.reason-about {
+  font-size: 14px;
+  color: #666666;
+  line-height: 35px;
+  text-align: left;
+  padding-right: 7vw;
+  width: 50%;
+}
+
+.reason-about-p2 {
+  margin-top: 40px;
+}
+
+.reason-btn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.reason-btn a {
+  background-color: #f1c40f;
+  display: inline;
+  padding: 15px 75px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 1px #dcdcdc;
+}
