@@ -5,7 +5,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import "../styles/school.css";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
-import ContactAdoress from "../components/ContactAdoress";
+import ContactAddress from "../components/ContactAddress";
 
 function School() {
   const features = [
@@ -207,7 +207,7 @@ function School() {
           </p>
         </div>
       </div>
-      <ContactAdoress />
+      <ContactAddress />
       <Footer />
       <ScrollToTop />
     </div>

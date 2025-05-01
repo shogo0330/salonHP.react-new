@@ -17,7 +17,7 @@ function Info() {
   }, []);
 
   return (
-    <div className="infomation">
+    <div className="information">
       <div className="info-top">
         <h3>INFORMATION</h3>
         <p>お知らせ</p>

@@ -1,0 +1,57 @@
+.contact-address-page {
+  background-color: #eeeeee;
+  padding: 40px 0;
+  margin-top: 25px;
+}
+
+.contact-address {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  border: solid 0.5px #ddd;
+  background-color: white;
+  margin: 20px;
+  height: 150px;
+  align-items: stretch;
+}
+
+.contact-address>div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-address>div:nth-child(3) {
+  border-left: 1px solid #ccc;
+  padding-left: 30px;
+}
+
+.form-reservation,
+.time,
+.web-form {
+  font-size: 13px;
+  color: black;
+}
+
+.telephone span {
+  font-size: 30px;
+}
+
+.web-form-btn button {
+  background-color: #f1c40f;
+  border: none;
+  display: inline;
+  padding: 15px 40px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 1px #dcdcdc;
+}
+
+.web-form-btn button:hover {
+  background-color: #ffcc33;
+  box-shadow: 0 -2px #bbbbbb;
+  cursor: pointer;
+}

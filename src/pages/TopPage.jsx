@@ -11,7 +11,7 @@ import Blog from "../components/Blog";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 import { Link } from "react-router-dom";
-import ContactAdoress from "../components/ContactAdoress";
+import ContactAddress from "../components/ContactAddress";
 
 function TopPage() {
   return (
@@ -78,7 +78,7 @@ function TopPage() {
       </div>
       <Info />
       <Blog />
-      <ContactAdoress />
+      <ContactAddress />
       <Footer />
       <ScrollToTop />
     </div>

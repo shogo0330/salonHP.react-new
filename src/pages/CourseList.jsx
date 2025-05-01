@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/courseList.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ContactAdoress from "../components/ContactAdoress";
+import ContactAddress from "../components/ContactAddress";
 
 const courses = [
   {
@@ -79,7 +79,7 @@ function CourseList() {
           );
         })}
       </div>
-      <ContactAdoress />
+      <ContactAddress />
       <Footer />
     </div>
   );

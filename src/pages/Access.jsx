@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/access.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ContactAdoress from "../components/ContactAdoress";
+import ContactAddress from "../components/ContactAddress";
 
 function Access() {
   return (
@@ -33,7 +33,7 @@ function Access() {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <ContactAdoress />
+      <ContactAddress />
       <Footer />
     </div>
   );

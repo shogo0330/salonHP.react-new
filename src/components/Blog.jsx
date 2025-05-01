@@ -8,9 +8,9 @@ function Blog() {
       .then((response) => response.json())
       .then((data) => {
         console.log("取得したデータ:", data);
-        const latestDatas = data.blog.slice(0, 4);
-        console.log("最新データ:", latestDatas);
-        setBlogs(latestDatas);
+        const latestData = data.blog.slice(0, 4);
+        console.log("最新データ:", latestData);
+        setBlogs(latestData);
       })
       .catch((error) => {
         console.error("ブログエラー:", error);

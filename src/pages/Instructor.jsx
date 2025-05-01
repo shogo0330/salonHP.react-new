@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../styles/instructor.css";
-import ContactAdoress from "../components/ContactAdoress";
+import ContactAddress from "../components/ContactAddress";
 
 function Instructor() {
   return (
@@ -48,7 +48,7 @@ function Instructor() {
           </p>
           <p>
             <span>|</span>
-            ANSEM主催「ネイルケアと皮膚科学」1デイ講座を全国３都市で開催現在
+            ANSEM主催「ネイルケアと皮膚科学」1デイ講座を全国3都市で開催現在
           </p>
           <p>西日本地区プロフェッショナル部門</p>
           <p>ネイルケア チャンピオン受賞</p>
@@ -62,7 +62,7 @@ function Instructor() {
           </p>
           <p>
             <span>|</span>
-            東京ネイルエキスポ　全日本ネイリスト選手権プロフェッショナル部門ネイルケア準優勝
+            東京ネイルエキスポ 全日本ネイリスト選手権プロフェッショナル部門ネイルケア準優勝
           </p>
           <p>
             <span>|</span>その他、ネイルコンテスト入賞多数…
@@ -151,7 +151,7 @@ function Instructor() {
           </p>
         </div>
       </div>
-      <ContactAdoress />
+      <ContactAddress />
       <Footer />
     </div>
   );
