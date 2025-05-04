@@ -96,3 +96,33 @@
 .foot-care-section h5 {
   color: #e6b422;
 }
+
+@media(max-width: 768px) {
+
+  .menu-section,
+  .foot-care-section {
+    width: calc((100% - 80px) / 2);
+  }
+}
+
+@media(max-width: 480px) {
+  .Menu-page {
+    margin: 50px 40px;
+  }
+
+  .top-img,
+  .menu-top-message,
+  .foot-care-message {
+    margin-left: calc(-1 * (40px));
+  }
+
+  .menu-section,
+  .foot-care-section {
+    width: calc((100% - 40px) / 1);
+  }
+
+  .menu-sections,
+  .foot-care-sections {
+    gap: 0;
+  }
+}

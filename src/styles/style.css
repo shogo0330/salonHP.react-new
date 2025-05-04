@@ -14,15 +14,14 @@ a {
 }
 
 /*Top*/
-.top-message img {
-  background-size: cover;
-  max-width: 100%;
-  height: 950px;
+.top-message {
+  position: relative;
 }
 
-.top-message {
-  text-align: center;
-  position: relative;
+.top-message img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 .message h2 {
@@ -36,12 +35,14 @@ a {
 }
 
 .message {
-  position: absolute;
-  top: 870px;
-  left: 125px;
   background-color: white;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 40px 20px;
   width: 80%;
-  padding-top: 70px;
 }
 
 .message p {
@@ -52,18 +53,20 @@ a {
 .school-top {
   margin-top: 200px;
   display: flex;
-  gap: 5px;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
 }
 
 .school-image {
   width: 50%;
-  height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .school-image img {
-  max-width: 100%;
+  width: 80%;
+  height: auto;
 }
 
 .school-about {
@@ -80,6 +83,7 @@ a {
   color: #e6b422;
   font-weight: bold;
   font-size: 120%;
+  border: none;
 }
 
 .school-intro {
@@ -125,7 +129,7 @@ a {
 }
 
 .reason-top {
-  margin-top: 80px;
+  margin-top: 60px;
   display: flex;
   gap: 3vw;
 }
@@ -140,6 +144,7 @@ a {
 
 .reason-image img {
   max-width: 100%;
+  height: auto;
 }
 
 .reason-about {
@@ -169,4 +174,38 @@ a {
   color: #fff;
   border-radius: 1px;
   box-shadow: 0 1px #dcdcdc;
+}
+
+@media(max-width: 768px) {
+  .school-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .school-image {
+    display: block;
+    width: 100%;
+  }
+
+  .school-about {
+    width: 100%;
+    text-align: left;
+    padding: 0 80px;
+  }
+
+  .reason-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reason-image {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+
+  .reason-about {
+    width: 100%;
+    padding: 0 80px;
+  }
 }

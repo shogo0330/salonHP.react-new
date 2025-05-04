@@ -21,11 +21,11 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 100%;
 }
 
 .contact-address>div:nth-child(3) {
   border-left: 1px solid #ccc;
-  padding-left: 30px;
 }
 
 .form-reservation,
@@ -40,6 +40,8 @@
 }
 
 .web-form-btn button {
+  width: 80%;
+  margin: 0 auto;
   background-color: #f1c40f;
   border: none;
   display: inline;
@@ -54,4 +56,32 @@
   background-color: #ffcc33;
   box-shadow: 0 -2px #bbbbbb;
   cursor: pointer;
+}
+
+@media (max-width:940px) {
+  .contact-address {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    padding: 30px;
+  }
+
+  .contact-address>div:nth-child(3) {
+    border-left: none;
+  }
+
+  .web-form,
+  .web-form-btn {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-address {
+    grid-template-columns: 1fr;
+  }
+
+  .web-form-btn {
+    border: none;
+  }
 }

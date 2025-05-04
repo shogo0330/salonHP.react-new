@@ -51,12 +51,14 @@ function School() {
             <p>座学をしっかりと説明できるようになりたい</p>
           </div>
         </div>
-        <p>
-          そんなネイリストの方を応援し、確実にレベルアップして頂く為に『知識』と『技術』と『サロンワーク』を連動して学び、お客様に喜んで頂けて売上アップにも繋がる実践型のプログラムです。
-        </p>
-        <Link to="/courseList">
-          <button className="course-btn">講座一覧へ→</button>
-        </Link>
+        <div className="course-about-text">
+          <p>
+            そんなネイリストの方を応援し、確実にレベルアップして頂く為に『知識』と『技術』と『サロンワーク』を連動して学び、お客様に喜んで頂けて売上アップにも繋がる実践型のプログラムです。
+          </p>
+          <Link to="/courseList">
+            <button className="course-btn">講座一覧へ→</button>
+          </Link>
+        </div>
         <div className="worries">
           <h2>こんなお悩みないですか⁇</h2>
           <img src="/images/school4.png" className="worries-img" />

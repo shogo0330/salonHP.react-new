@@ -55,6 +55,10 @@ span {
   padding-bottom: 15px;
 }
 
+.course-about-text {
+  text-align: center;
+}
+
 .course-btn {
   background-color: #e6b422;
   border: none;
@@ -152,4 +156,32 @@ span {
   font-size: 13px;
   padding: 10px;
   border: 2px solid #ccc;
+}
+
+@media (max-width:1000px) {
+  .concept-abouts {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .school-feature {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .School-page {
+    margin: 40px;
+  }
+
+  .worries,
+  .school-features,
+  .school-care {
+    padding: 20px 40px;
+  }
+
+  .school-feature {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
