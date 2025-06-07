@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/style.css";
+import "../styles/style.scss";
 import "../styles/header.css";
 import "../styles/footer.css";
 import "../styles/scrollToTop.css";
@@ -21,8 +21,7 @@ function TopPage() {
         <div className="top-message">
           <img src="/images/top.jpg" />
           <div className="message">
-            <h2>ネイリストのトップステージ</h2>
-            <h2>－爪肌美容の専門家－</h2>
+            <h1>ネイリストのトップステージ<span>－爪肌美容の専門家－</span></h1>
             <p>
               当スクールは、技術だけでなく爪肌の専門知識を身につけた「爪肌美容の専門家」を目指す方のためのスクールです。
             </p>
